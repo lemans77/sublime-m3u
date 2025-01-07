@@ -14,15 +14,10 @@ Installation through [package control](http://wbond.net/sublime_packages/package
 ### Manual
 Clone or copy this repository into the packages directory. You will need to rename the folder to `M3U Syntax` if using this method. By default, the Package directory is located at:
 
-* OS X: ~/Library/Application Support/Sublime Text 2/Packages/
-* Windows: %APPDATA%/Roaming/Sublime Text 2/Packages/
-* Linux: ~/.config/sublime-text-2/Packages/
+* OS X: ~/Library/Application Support/Sublime Text/Installed Packages/
+* Windows: %APPDATA%/Roaming/Sublime Text/Installed Packages/
+* Linux: ~/.config/sublime-text/Installed Packages/
 
-or
-
-* OS X: ~/Library/Application Support/Sublime Text 3/Packages/
-* Windows: %APPDATA%/Roaming/Sublime Text 3/Packages/
-* Linux: ~/.config/sublime-text-3/Packages/
 
 ## License
 **Copyright 2014 MSal.**
