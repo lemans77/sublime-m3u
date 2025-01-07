@@ -46,11 +46,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>meta.value.m3u</string>
+					<string>keyword.operator.m3u</string><!-- EXTINF {name} -->
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.function.extinf.m3u</string>
+			<string>comment.line.number-sign.m3u</string><!-- EXTINF {param} -->
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -63,7 +63,7 @@
 					<key>match</key>
 					<string>-?[\d\.]+</string>
 					<key>name</key>
-					<string>constant.numeric.m3u</string>
+					<string>comment.line.number-sign.m3u</string><!-- Number -->
 				</dict>
 			</array>
 		</dict>
@@ -108,7 +108,7 @@
 			<key>match</key>
 			<string>^[^#].+</string>
 			<key>name</key>
-			<string>string.unquoted.m3u</string>
+			<string>string.unquoted.m3u</string><!-- Link -->
 		</dict>
 		<dict>
 			<key>match</key>
