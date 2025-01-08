@@ -24,6 +24,12 @@
 			<string>support.class.m3u</string>
 		</dict>
 		<dict>
+			<key>match</key>
+			<string>^#####(.*)$</string>
+			<key>name</key>
+			<string>entity.name.function.m3u</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>^#EXTINF</string>
 			<key>beginCaptures</key>
